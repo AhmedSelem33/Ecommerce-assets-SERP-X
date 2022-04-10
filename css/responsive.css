@@ -1,0 +1,258 @@
+
+
+/***********
+    Start Mobile Responsive
+************/
+@media (max-width: 767px) {
+
+    /** STart Navbar **/
+    .nav-bottom nav .navbar-toggle .icon-toggle i{
+        font-size: 22px;
+        color: #fff;
+        padding: 8px;
+        cursor: pointer;
+    }
+    .nav-bottom nav .menu-collapse {
+        display: block;
+        height: 100%;
+        width: 250px;
+        position: fixed;
+        top: 0;
+        left: -250px;
+        background: #1f2937;
+        z-index: 9;
+        padding: 10px 20px 20px;
+        transition: all .5s ease;
+    }
+    .nav-bottom nav .navbar-nav .nav-item:not(:first-of-type) {
+        margin-left: 0;
+    }
+    .nav-bottom nav .navbar-nav .nav-item.icon-close i{
+        font-size: 20px;
+    }
+    .nav-bottom nav .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+        margin-left: 15px;
+        border-left: 1px solid #585f6a;
+    }
+    /** STart Header **/
+    .header-sec .header-title h1 {
+        font-size: 42px;
+    }
+    .header-sec .header-title p {
+        font-size: 22px;
+    }
+    .sec-title h2 {
+        font-size: 28px;
+    }
+    .department-sec {
+        padding: 40px 0 0;
+    }
+    .department-sec .department-item .name a {
+        margin-top: 10px;
+    }
+    .department-sec .department-item .name a {
+        font-size: 14px;
+    }
+    .department-sec .department-item ul.related-category li {
+        font-size: 10px;
+    }
+    .top-categories-sec {
+        padding: 40px 0 0;
+    }
+    .top-categories-sec .top-categories-box .nav-tabs .nav-item .nav-link {
+        margin-right: 20px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .top-categories-sec .top-categories-box .tab-content .tab-pane .category-item,
+     .top-categories-sec .top-categories-box .tab-content .tab-pane .category-name-item {
+        width: 47%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .top-categories-sec .top-categories-box .tab-content .tab-pane .category-item:nth-of-type(2n+1) ,
+    .top-categories-sec .top-categories-box .tab-content .tab-pane .category-name-item:nth-of-type(2n+1){
+        margin-right: 5%;
+    }
+    .top-categories-sec .top-categories-box .tab-content .tab-pane .category-item .category-name a {
+        font-size: 14px;
+    }
+    .top-categories-sec .top-categories-box .tab-content .tab-pane .category-name-item a {
+        font-size: 12px;
+    }
+    .modren-made-sec {
+        padding: 40px 0 0;
+    }
+    .featured-reviews-sec {
+        padding: 40px 0 0;
+    }
+    .featured-reviews-sec .featured-review-item {
+        padding: 0;
+    }
+    .two-column.featured-reviews-sec .featured-review-item .image img,
+    .three-column-horizontal.featured-reviews-sec .featured-review-item .image img {
+        height: 70px;
+    }
+    
+    .featured-reviews-sec .featured-review-item .title a ,
+    .three-column-horizontal.featured-reviews-sec .featured-review-item .title a{
+        font-size: 16px;
+    }
+    .three-column-vertical.featured-reviews-sec .featured-review-item .image img {
+        width: 100%;
+    }
+    .featured-reviews-sec-style2{
+        padding: 40px 0 0;
+    }
+    .featured-reviews-sec-style2 .featured-review-item {
+        padding: 20px 5px;
+        margin-bottom: 20px;
+    }
+    .featured-reviews-sec-style2 .featured-review-item .image img {
+        height: 160px;
+    }
+    .featured-reviews-sec-style2 .featured-review-item .disc a:first-of-type {
+        font-size: 14px;
+    }
+    .featured-reviews-sec-style2 .featured-review-item .disc span {
+        font-size: 14px;
+    }
+    .featured-reviews-sec-style2 .featured-review-item .disc a:last-of-type {
+        padding: 10px 8px;
+        font-size: 10px;
+    }
+    .featured-reviews-sec-style2 .featured-review-item .disc a:last-of-type img {
+        width: 10px;
+        margin-right: 2px;
+    }
+
+    /** Start Archive Category Section Responsive **/
+
+    .archive-sec .archive-cat-sec .archive-cat-item {
+        text-align: center;
+    }
+
+    /** Start Footer Responsive **/
+    
+    .footer-top .recent-add-cat-box .title h4 {
+        font-size: 20px;
+    }
+    .footer-top .recent-add-cat-box .categ-item h6 {
+        font-size: 14px;
+    }
+    footer .copyRight-box p {
+        font-size: 12px;
+        margin-bottom: 10px !important;
+    }
+    footer .IMP-links-box a {
+        margin-right: 10px;
+    }
+    footer .about-website-box p {
+        font-size: 11px;
+    }
+
+	.product-item .img-box .main-img img {
+		max-height: 445px;
+	}
+	.product-item .text-box{
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 991px) {
+    .department-sec .department-item {
+        margin-bottom: 20px;
+    }
+    .modren-made-sec .modren-made-item .disc a {
+        font-size: 22px;
+    }
+    .modren-made-sec .modren-made-item .disc p {
+        font-size: 14px;
+    }
+    .featured-brands-sec .brand-image {
+        padding: 10px;
+    }
+     /** Start Footer Responsive **/
+    footer ,
+    .footer-top {
+        padding: 40px 0
+    }
+
+	.btn-box .btn-1{
+		margin-top: 30px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /** Start Navbar Responsive **/
+    .nav-bottom nav .menu-collapse {
+        display: flex;
+    }
+    .nav-bottom nav .menu-collapse > ul {
+        flex-direction: row;
+    }
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute;
+    }
+    .nav-bottom nav .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+    }
+    .nav-bottom nav .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+        font-size: 12px;
+    }
+
+    /** Start Top Categories Responsive **/
+    .top-categories-sec .top-categories-box .tab-content .tab-pane .category-item, 
+    .top-categories-sec .top-categories-box .tab-content .tab-pane .category-name-item {
+        width: 23.5%;
+        margin-top: 12px;
+    }
+    .top-categories-sec .top-categories-box .nav-tabs .nav-item .nav-link {
+        margin-right: 20px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .top-categories-sec .top-categories-box .tab-content .tab-pane .category-item .category-name a {
+        font-size: 14px;
+    }
+    .top-categories-sec .top-categories-box .tab-content .tab-pane .category-name-item a{
+        font-size: 12px;
+    }
+    
+    .featured-reviews-sec-style2 .featured-review-item .disc a:first-of-type {
+        font-size: 16px;
+    }
+    .featured-reviews-sec-style2 .featured-review-item .disc span {
+        font-size: 14px;
+    }
+    .two-column.featured-reviews-sec .featured-review-item .image img {
+        height: 100px;
+    }
+    .featured-reviews-sec .featured-review-item .title a {
+        font-size: 14px;
+    }
+    /** Start Footer Responsive **/
+    footer .copyRight-box p {
+        font-size: 12px;
+    }
+    footer .IMP-links-box a {
+        margin-right: 10px;
+    }
+    footer .about-website-box p {
+        font-size: 12px;
+    }
+	
+
+}
+@media (max-width: 1199px) {
+    .featured-reviews-sec-style2 .featured-review-item .image img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .three-column-horizontal.featured-reviews-sec .featured-review-item .title a {
+        font-size: 16px;
+    }
+}

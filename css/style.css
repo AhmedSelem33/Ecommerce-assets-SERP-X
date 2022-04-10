@@ -1,0 +1,712 @@
+/*********
+    Start Custom Style
+*********/
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-Regular.ttf);
+}
+* {
+    font-family: Inter;
+}
+body {
+    background-color: #c9c7c71f;
+}
+.sec-title h2 {
+    font-size: 40px;
+    color: #000;
+}
+/*********
+    End Custom Style
+*********/
+
+/*********
+    Start Navbar Style
+*********/
+
+/** Start Nav Top **/
+.nav-top {
+    background-color: #1F2937;
+    padding: 10px 0;
+}
+
+/** Start Nav Bottom **/
+.nav-bottom {
+    background-color: #4B5563;
+    /* padding: 0 40px; */
+}
+
+.nav-bottom nav .navbar-nav .nav-item:not(:first-of-type) {
+    margin-left: 20px;
+}
+.nav-bottom nav .navbar-nav .nav-item .nav-link{
+    padding-right: 0.85rem;
+    padding-left: 0.85rem;
+}
+.nav-bottom nav .navbar-nav .nav-item.dropdown-hover:hover > a{
+    background-color: #616975;
+}
+.nav-bottom nav .navbar-nav .nav-item.dropdown-hover:hover .dropdown-menu{
+    display: block;
+}
+.nav-bottom nav .navbar-nav .nav-item .dropdown-menu {
+    background-color: #616975;
+    border: none;
+    border-radius: 0;
+}
+.nav-bottom nav .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+    padding: .45rem 1.0rem;
+    font-size: 14px;
+    color: #fff;
+}
+.nav-bottom nav .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+    background-color: #818791;
+    color: #fff;
+}
+
+/*********
+    End Navbar Style
+*********/
+
+/*********
+   Start Header Section Style
+*********/
+.header-sec {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 200px;
+    position: relative;
+}
+.header-sec::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000080;
+}
+.header-sec .header-title h1{
+    font-size: 64px;
+}
+.header-sec .header-title p{
+    font-size: 32px;
+}
+
+/*********
+   End Header Section Style
+*********/
+
+/*********
+   Start Alert Section Style
+*********/
+.alert-sec {
+    background-color: #D1D5DB;
+    padding: 10px 0;
+}
+.alert-sec p {
+    font-size: 12px;
+}
+
+/*********
+   End Alert Section Style
+*********/
+
+
+/*********
+   Start Department Section Style
+*********/
+.department-sec {
+    padding: 60px 0 0;
+}
+.department-sec .department-item .image img {
+    width: 100%;
+}
+.department-sec .department-item .name a{
+    color: #000;
+    margin-top: 18px;
+    display: block;
+    font-size: 16px;
+    /* font-size: 18px;
+    line-height: 1.15; */
+}
+.department-sec .department-item .name a:hover{
+    text-decoration: none;
+}
+.department-sec .department-item ul.related-category li a{
+    color: #000;
+    font-size: 13px;
+    text-decoration: none;
+}
+/*********
+   End Department Section Style
+*********/
+
+/*********
+   Start Top Categories Section Style
+*********/
+.top-categories-sec {
+    padding: 60px 0 0;
+}
+.top-categories-sec .top-categories-box .nav-tabs .nav-item .nav-link.active{
+    border: 0;
+    color: #000;
+    font-weight: 600;
+    position: relative;
+}
+.top-categories-sec .top-categories-box .nav-tabs .nav-item .nav-link.active::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+}
+.top-categories-sec .top-categories-box .nav-tabs .nav-item .nav-link{
+    color: #111;
+    padding: 0 0 8px;
+    margin-right: 45px;
+    border: 0;
+    background-color: transparent;
+}
+.top-categories-sec .top-categories-box .nav-tabs .nav-item .nav-link:hover {
+    border: 0;
+
+}
+
+.top-categories-sec .top-categories-box .tab-content .tab-pane .category-item,
+.top-categories-sec .top-categories-box .tab-content .tab-pane .category-name-item{
+    width: 18.5%;
+    background: #fff;
+    padding: 40px 0 20px;
+    margin-top: 20px;
+    margin-right: .75%;
+    margin-left: .75%;
+}
+.top-categories-sec .top-categories-box .tab-content .tab-pane .category-item {
+    padding: 10px 20px 20px;
+}
+.top-categories-sec .top-categories-box .tab-content .tab-pane .category-item .image a img{
+    width: 100%;
+}
+.top-categories-sec .top-categories-box .tab-content .tab-pane .category-item .category-name a{
+    color: #000;
+    text-decoration: none;
+}
+.top-categories-sec .top-categories-box .tab-content .tab-pane .category-name-item {
+    padding: 20px 10px;
+    height: 90px;
+    border-radius: 3px;
+}
+.top-categories-sec .top-categories-box .tab-content .tab-pane .category-name-item a {
+    font-size: 14px;
+    color: #000;
+}
+.top-categories-sec .top-categories-box .tab-content .tab-pane .category-name-item a:hover {
+    text-decoration: none;
+}
+/*********
+   End Top Categories Section Style
+*********/
+
+/*********
+   Start Featured Brands Section Style
+*********/
+
+.featured-brands-sec {
+    padding: 60px 0 0;
+}
+.featured-brands-sec .brand-image {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    border-radius: 3px;
+    margin-bottom: 24px;
+}
+.featured-brands-sec .brand-image a {
+    text-decoration: none;
+}
+.featured-brands-sec .brand-image a img {
+    width: 100%;
+}
+/*********
+   End Featured Brands Section Style
+*********/
+
+/*********
+   Start Modren Made Section Style
+*********/
+.modren-made-sec {
+    padding: 60px 0 0;
+}
+.modren-made-sec .modren-made-item .image a {
+    text-decoration: none;
+}
+.modren-made-sec .modren-made-item .disc a{
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+.modren-made-sec .modren-made-item .disc p{
+    color: #000;
+}
+
+/*********
+   End Modren Made Section Style
+*********/
+
+/*********
+   Start Featured Reviews Section Style
+*********/
+
+.featured-reviews-sec {
+    padding: 60px 0 0;
+}
+.featured-reviews-sec .featured-review-item {
+    margin-bottom: 30px;
+    padding: 0 10px 0 0;
+}
+.two-column.featured-reviews-sec .featured-review-item .image img {
+    height: 150px;
+}
+.three-column-horizontal.featured-reviews-sec .featured-review-item .image img{
+    height: 100px;
+}
+.three-column-vertical.featured-reviews-sec .featured-review-item .image img {
+    height: 100%;
+    width: 100%;
+}
+.featured-reviews-sec .featured-review-item .title a {
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+}
+.three-column-horizontal.featured-reviews-sec .featured-review-item .title a{
+    font-size: 18px;
+}
+
+/*********
+   End Featured Reviews Section Style
+*********/
+
+/*********
+   Start Featured Reviews Section Style Two
+*********/
+.featured-reviews-sec-style2 {
+    padding: 60px 0 0;
+
+}
+.featured-reviews-sec-style2 .featured-review-item {
+    padding: 20px 10px;
+    margin-bottom: 26px;
+}
+.featured-reviews-sec-style2 .featured-review-item .image img {
+    height: 250px;
+}
+.featured-reviews-sec-style2 .featured-review-item  .disc a:first-of-type{
+    height: 42px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.featured-reviews-sec-style2 .featured-review-item  .disc span {
+    color: #A9A9A9;
+}
+.featured-reviews-sec-style2 .featured-review-item  .disc a:last-of-type{
+    background: #F0C14B;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+.featured-reviews-sec-style2 .featured-review-item  .disc a:last-of-type img {
+    width: 15px;
+    margin-right: 10px;
+}
+/*********
+   End Featured Reviews Section Style Two
+*********/
+
+/*********
+   End Archive Page Style
+*********/
+.archive-sec {
+    padding: 30px 0;
+}
+.archive-sec .archive-cat-sec {
+    padding: 40px 0;
+}
+.archive-sec .archive-cat-sec .archive-cat-item a{
+    color: #000;
+    text-decoration: none;
+    transition: all .5s ease;
+    font-size: 14px;
+}
+.archive-sec .archive-cat-sec .archive-cat-item a:hover {
+    opacity: .5;
+}
+
+
+/*********
+   Start Footer Style
+*********/
+/* STart Footer Top Style */
+.footer-top {
+    background-color: #4B5563;
+    padding: 60px 0;
+}
+.footer-top .recent-add-cat-box .title h4{
+    font-weight: 700;
+}
+.footer-top .recent-add-cat-box .categ-item ul li a{
+    text-decoration: none;
+    font-size: 12px;
+}
+/* Start Footer Style */
+footer {
+    background-color: #1F2937;
+    padding: 60px 0;
+}
+footer .title-column h6{
+    font-size: 16px;
+}
+footer ul li a {
+    font-size: 14px;
+    margin-top: 6px;
+    display: block;
+}
+footer ul li a:hover {
+    text-decoration: none;
+}
+footer .copyRight-box p{
+    font-size: 14px;
+}
+footer .IMP-links-box a {
+    font-size: 12px;
+}
+footer .IMP-links-box a:hover{
+    text-decoration: none;
+}
+footer .about-website-box {
+    border-top: 2px solid #fff;
+}
+footer .about-website-box p{
+    font-size: 13px;
+    color: #FFFFFF99 !important;
+}
+/*********
+   End Footer Style
+*********/
+
+/*********
+   Start Button Top Fixed Style
+*********/
+.btn-top-fixed {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: #4b5563;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    display: none;
+}
+/*********
+   End Button Top Fixed Style
+*********/
+
+/*********
+   Start Roundup Review Page
+*********/
+body.review-page {
+	background-color: #FFF;
+
+}
+
+/* Start categories links Style */
+.categories-links {
+	list-style: none;
+	margin-top: 20px;
+	padding: 0;
+}
+
+.categories-links li {
+	display: inline-block;
+}
+
+.categories-links li a {
+	color: #000;
+	text-decoration: none;
+	font-size: 14px;
+	display: block;
+	margin-right: 5px;
+	text-transform: capitalize;
+}
+
+.categories-links li.active a {
+	font-weight: bold;
+}
+
+/* Start breadcrumbs hero Style */
+.breadcrumbs-hero {
+	padding: 80px 0 50px 0;
+	position: relative;
+}
+
+.breadcrumbs-hero .head-breadcrumbs {
+	text-transform: capitalize;
+	position: relative;
+	font-weight: 600;
+	line-height: 55px;
+	font-size: 46px;
+	margin-bottom: 30px;
+}
+
+.breadcrumbs-hero .info-breadcrumbs {
+	text-transform: capitalize;
+	position: relative;
+	line-height: 25px;
+	height: 25px;
+	width: 75%;
+	font-size: 14px;
+	margin-bottom: 20px;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+}
+
+.breadcrumbs-hero .info-breadcrumbs.collapsed {
+	display: block;
+	-webkit-line-clamp: unset;
+	-webkit-box-orient: unset;
+	overflow: hidden;
+	-o-text-overflow: unset;
+	   text-overflow: unset;
+	height: auto;
+	width: auto;
+}
+
+.breadcrumbs-hero .more-collapse {
+	text-transform: capitalize;
+	text-decoration: none;
+	position: relative;
+	font-size: 14px;
+	color: #000
+}
+
+.breadcrumbs-hero .more-collapse:hover,
+.breadcrumbs-hero .more-collapse.active {
+	color: #BF0A30;
+}
+
+/* Start breadcrumbs hero Style */
+.links-box {
+	list-style: none;
+	margin: 0;
+	padding: 0 0 50px 0;
+	border-bottom: 2px solid #e9ecef
+}
+
+.links-box li {
+	display: inline-block;
+}
+
+.links-box li a {
+	text-transform: capitalize;
+	text-decoration: none;
+	position: relative;
+	font-size: 16px;
+	color: #000;
+	display: block;
+	font-weight: 500;
+	margin-right: 15px;
+}
+
+.links-box li:hover a,
+.links-box li.active a {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #BF0A30;
+	color: #BF0A30
+}
+
+/* Start product item Style */
+.product-item {
+	border: 2px solid #e9ecef;
+	margin: auto;
+	margin-top: 32px;
+	padding: 30px;
+	position: relative;
+}
+
+.product-item .rank {
+	position: absolute;
+	background: #333;
+	color: #fff;
+	padding: 4px 12px;
+	font-weight: 600;
+	display: inline-block;
+	text-transform: uppercase;
+	text-align: center;
+	top: -2px;
+	z-index: 5;
+	font-size: 12px;
+}
+
+.product-item .rank:hover {
+	text-decoration: none;
+}
+
+.product-item .img-box .main-img img {
+	max-height: 240px;
+}
+
+.product-item .img-box .box-photos {
+	margin-top: 15px;
+}
+
+.product-item .img-box .box-photos img {
+	width: calc((100% / 3) - 13px);
+	margin: 5px;
+	cursor: pointer;
+	max-height: 100px;
+	-webkit-transform: scale(0.8);
+	    -ms-transform: scale(0.8);
+	        transform: scale(0.8);
+}
+
+.product-item .text-box .product-title {
+	font-size: 20px;
+	line-height: 1.3;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #000;
+	margin-bottom: 15px;
+}
+
+.product-item .text-box .product-title a {
+	color: #000;
+	text-decoration: none;
+}
+
+.product-item .text-box .text-info {
+	padding: 0 0 0 18px;
+	margin: 0;
+}
+
+.product-item .text-box .text-info li {
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	margin-bottom: 10px;
+}
+
+.product-item .text-box .text-info li a {
+	color: #000;
+	text-decoration: none;
+}
+
+.product-item .link-more-p {
+	text-transform: capitalize;
+	text-decoration: none;
+	position: relative;
+	font-size: 14px;
+	font-weight: 600;
+	color: #BF0A30;
+	background: transparent;
+	border: none;
+	padding: 0 0 5px 0;
+	border-bottom: 1px solid #BF0A30;
+}
+
+.product-item .more-text-product-item {
+	padding: 0;
+	border: none;
+	font-size: 16px;
+	line-height: 27px;
+	color: #000;
+	margin-top: 30px;
+	background: transparent;
+}
+
+.btn-1 {
+	text-transform: uppercase;
+	position: relative;
+	text-align: center;
+	background-color: #BF0A30;
+	color: #fff;
+	z-index: 1;
+	font-size: 14px;
+	font-weight: 700;
+	width: 100%;
+	height: 53px;
+	line-height: 53px;
+	padding: 0 15px;
+	overflow: hidden;
+	display: -ms-inline-grid;
+	display: inline-grid;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.btn-1:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Start accordion content Style */
+.accordion-content .btns-accordion .accordion-btn {
+	text-transform: capitalize;
+	text-decoration: none;
+	position: relative;
+	font-size: 16px;
+	color: #000;
+	font-weight: 500;
+	border: none;
+	background: transparent;
+	border-bottom: 2px solid #e9ecef;
+	display: block;
+	width: 100%;
+	text-align: left;
+	padding: 0 0 10px 0;
+	margin: 50px 0 30px 0;
+}
+
+.accordion-content .collapse .content-box {
+	background: transparent;
+	padding: 0;
+	border: none;
+	display: block;
+	border-radius: 0;
+}
+
+.accordion-content .collapse .content-box h4 {
+	font-size: 18px;
+	line-height: 1.3;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #000;
+	margin: 50px 0 20px 0;
+}
+
+.accordion-content .collapse .content-box h4:first-of-type {
+	margin-top: 0;
+}
+
+/*********
+   End Roundup Review Page
+*********/
